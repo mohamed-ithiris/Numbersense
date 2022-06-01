@@ -1,0 +1,63 @@
+.navbar {
+  background-color: #fff;
+  transition: #fff 0.15s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.logo_style {
+  width: 228px;
+}
+
+/* MAX Width */
+@media (max-width: 960px) {
+  /*Menu*/
+  .mobile-menu {
+    display: inline !important;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  .logo_style {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    min-height: 48px !important;
+    padding: 16px 24px !important;
+  }
+}
+
+/* rotating setting icon*/
+
+.setting {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lessonBotFontSize {
+  font-size: 0.651rem !important;
+}
+
+@media (min-width: 700px) {
+  .lessonBotFontSize {
+    font-size: 0.875rem !important;
+  }
+}

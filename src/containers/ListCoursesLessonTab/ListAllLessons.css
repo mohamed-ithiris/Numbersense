@@ -1,0 +1,115 @@
+.ListAllLesson-Header {
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+  /* max-height: 50%; */
+  overflow: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #fff;
+}
+
+.ListAllLesson-Main {
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 80%;
+  overflow: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #fff;
+}
+
+.content {
+  position: relative;
+  flex-grow: 1;
+  /* background-color: #fff; */
+}
+
+.parent-div {
+  position: relative;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #edf0f299;
+  cursor: pointer;
+}
+
+.col-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-div {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  display: inline-flex;
+  line-height: 16px;
+}
+
+.more-div {
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  display: inline-flex;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.lesson-grid-align {
+  padding: 2% 2%;
+}
+
+.lesson-grid {
+  display: grid;
+  grid-gap: 24px;
+  gap: 23px;
+  display: grid;
+  justify-items: stretch;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 300px) {
+  .lesson-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 520px) {
+  .lesson-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .lesson-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .lesson-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .lesson-grid {
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+  }
+}

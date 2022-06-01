@@ -1,0 +1,49 @@
+.Parent_404 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Child_404 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}
+
+.text-404 {
+  position: relative;
+  top: 10%;
+  left: 45%;
+  font-weight: bolder !important;
+}
+
+.T1 {
+  position: relative;
+  top: 55%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy !important;
+}
+.T2 {
+  position: relative;
+  top: 55%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+.button-404 {
+  position: relative;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
