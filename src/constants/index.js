@@ -84,45 +84,50 @@ export const ACTIVED_UPDATE_SUCCESS_MESSAGE =
 
 export const MENU = [
   {
-    menuName: "Home",
+    menuName: "Dashboard",
     menuURL: "dashboard",
-    layout: "/user",
-  },
-  {
-    menuName: "Studio Bot",
-    menuURL: "studioBot",
-    layout: "/user",
-  },
-  {
-    menuName: "Activated Bot",
-    menuURL: "activatedBot",
-    layout: "/user",
-  },
-  {
-    menuName: "Recent Activity",
-    menuURL: "recentActivity",
-    layout: "/user",
-  },
-  {
-    menuName: "Manage Course",
-    menuURL: "manageCourse",
     layout: "/admin",
   },
   {
-    menuName: "Manage Folder",
-    menuURL: "manageFolder",
+    menuName: "Manage District",
+    menuURL: "manage_district",
     layout: "/admin",
   },
   {
-    menuName: "Manage Bot Creator",
-    menuURL: "manageBotCreator",
+    menuName: "Manage Products",
+    menuURL: "manage_products",
     layout: "/admin",
   },
   {
-    menuName: "Recent Activity",
-    menuURL: "recentActivity",
+    menuName: "Manage Class License",
+    menuURL: "manage_class_license",
     layout: "/admin",
   },
+  {
+    menuName: "Manage User License",
+    menuURL: "manage_user_license",
+    layout: "/admin",
+  },
+  {
+    menuName: "Notification",
+    menuURL: "notification",
+    layout: "/admin",
+  },
+  // {
+  //   menuName: "Manage Folder",
+  //   menuURL: "manageFolder",
+  //   layout: "/admin",
+  // },
+  // {
+  //   menuName: "Manage Bot Creator",
+  //   menuURL: "manageBotCreator",
+  //   layout: "/admin",
+  // },
+  // {
+  //   menuName: "Recent Activity",
+  //   menuURL: "recentActivity",
+  //   layout: "/admin",
+  // },
   {
     menuName: "Manage District",
     menuURL: "manageDistrict",

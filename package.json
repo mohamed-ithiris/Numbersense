@@ -1,5 +1,5 @@
 {
-  "name": "lesson-bot-app",
+  "name": "number-sense-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -55,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
   }
 }
